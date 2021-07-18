@@ -1,2 +1,18 @@
 welcome:
   message : Welcome to dev environment
+
+        
+spring:
+  config:
+    activate:
+      on-profile: dev
+  datasource:
+    username: sa
+    password:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+  jpa: 
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2: 
+    console:
+      enabled: true
