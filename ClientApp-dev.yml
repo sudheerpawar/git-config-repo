@@ -1,5 +1,5 @@
 welcome:
-  message : Welcome to dev environment, sudheer
+  message : Welcome to dev environment, sudheer pawar
 
         
 spring:
@@ -9,7 +9,7 @@ spring:
   datasource:
     username: sa
     password:
-    url: jdbc:h2:mem:devdb
+    url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
   jpa: 
     database-platform: org.hibernate.dialect.H2Dialect
